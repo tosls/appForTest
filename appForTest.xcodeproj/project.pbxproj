@@ -13,6 +13,8 @@
 		197CD95B275B814E004558C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CD959275B814E004558C3 /* Main.storyboard */; };
 		197CD95D275B8150004558C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197CD95C275B8150004558C3 /* Assets.xcassets */; };
 		197CD960275B8150004558C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197CD95E275B8150004558C3 /* LaunchScreen.storyboard */; };
+		197CD968275B8412004558C3 /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197CD967275B8412004558C3 /* ModulesFactory.swift */; };
+		197CD96A275B8866004558C3 /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197CD969275B8866004558C3 /* FieldValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		197CD95C275B8150004558C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197CD95F275B8150004558C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197CD961275B8150004558C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197CD967275B8412004558C3 /* ModulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
+		197CD969275B8866004558C3 /* FieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				197CD953275B814E004558C3 /* AppDelegate.swift */,
 				197CD955275B814E004558C3 /* SceneDelegate.swift */,
 				197CD957275B814E004558C3 /* ViewController.swift */,
+				197CD969275B8866004558C3 /* FieldValidator.swift */,
+				197CD967275B8412004558C3 /* ModulesFactory.swift */,
 				197CD959275B814E004558C3 /* Main.storyboard */,
 				197CD95C275B8150004558C3 /* Assets.xcassets */,
 				197CD95E275B8150004558C3 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				197CD958275B814E004558C3 /* ViewController.swift in Sources */,
 				197CD954275B814E004558C3 /* AppDelegate.swift in Sources */,
+				197CD96A275B8866004558C3 /* FieldValidator.swift in Sources */,
 				197CD956275B814E004558C3 /* SceneDelegate.swift in Sources */,
+				197CD968275B8412004558C3 /* ModulesFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
