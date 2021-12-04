@@ -21,8 +21,11 @@ class ViewController: UIViewController {
         loginTF.delegate = self
         passwordTF.delegate = self
         
-        loginTF.returnKeyType = .continue
+        loginTF.returnKeyType = .next
         passwordTF.returnKeyType = .done
+        
+        loginTF.accessibilityIdentifier = "LoginTF"
+        passwordTF.accessibilityIdentifier = "PasswordTF"
     }
     
     func toNextScreen() {
